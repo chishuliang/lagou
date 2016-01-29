@@ -1,0 +1,123 @@
+
+.bj a{
+    display: block;
+    width: 100%;
+    height: 80px;
+    background: url("../image/CgqLKVaLp92Ac_yhAAH6mxf38E0986.JPG")no-repeat -285px 0;
+}
+.header {
+    background: #343434;
+    height: 30px;
+    width: 100%;
+}
+.header .headerLeft li.L{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    background: url("../image/app_icon_43ba565.png") no-repeat center center;
+    background-position-x: 30px;
+}
+.header .headerLeft li.L a{
+    margin-left: 48px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #0AD7A3;
+    padding-right: 14px;
+    border-right: 1px solid #5E5E5E;
+}
+.header .headerLeft li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.header .headerLeft li a{
+    margin-left: 14px;
+    text-decoration: none;
+    color: #C4C3C3;
+    font-size: 14px;
+}
+.header .headerLeft li a:hover{
+    color: #FFFFFF;
+}
+.headerRight {
+    float: right;
+}
+.header .headerRight li.R{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.header .headerRight li.R a{
+    font-size: 14px;
+    color: #C4C3C3;
+    padding-right: 13px;
+}
+.header .headerRight li.R a:hover{
+    color: #FFFFFF;
+}
+.headerRight li.RR{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.headerRight li.RR a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #C4C3C3;
+    font-size: 14px;
+    border-left: 1px solid #5E5E5E;
+    padding-left: 13px;
+}
+.headerRight li.RR a:hover{
+    color: #FFFFFF;
+}.nav{
+    width: 100%;
+    height: 54px;
+    background: #FAFAFA;
+}
+.nav .navLeft{
+    float: left;
+    margin-left: 163px;
+    width: 230px;
+    height: 54px;
+
+}
+.navLeft img{
+    margin: 10px 0;
+}
+.nav .navLeft a{
+    display: inline-block;
+    margin-top: 21px;
+    margin-left: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #343434;
+}
+.nav .navLeft a.X{
+    font-size: 12px;
+    color: #9A9A9A;
+}
+.nav .tabChange{
+    height: 54px;
+    /*float: left;*/
+    margin-left: 52px;
+}
+.tabChange li{
+    float: left;
+    margin-left: 54px;
+}
+.tabChange li a{
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: #9A9A9A;
+    padding: 18px 4px 10px;
+}
+.tabChange li.select a{
+    color: #5E5E5E;
+    border-bottom: 2px solid #02B38B;
+}
+.tabChange li a:hover{
+    color: #5E5E5E;
+    border-bottom: 2px solid #02B38B;
+}

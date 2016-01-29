@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .backDrop{
+            position: relative;
+            width: 100%;
+            height: 323px;
+            background-color: #00b38a;
+        }
+        .backDrop a{
+            position: absolute;
+            z-index: 9999;
+            top: 70px;
+            left: 136px;
+            display: inline-block;
+            width: 128px;
+            height: 54px;
+            background: url("image/logo_13bcdf6.png") left top no-repeat;
+        }
+        .BD{
+            width: 556px;
+            margin: -168px auto 0 auto;
+            padding: 50px 47px 60px 57px;
+            background-color: #fff;
+            display: table;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            -webkit-box-shadow: 0 0 5px rgba(0,0,0,.09);
+            box-shadow: 0 0 5px rgba(0,0,0,.09);
+            position: relative;
+            z-index: 1;
+        }
+        .BD .Left{
+            width: 300px;
+            height: 263px;
+            float: left;
+            margin-right: 46px;
+        }
+        .BD .Left .Top{
+            width: 292px;
+            height: 42px;
+            font-size: 15px;
+            color: #E0D7D5;
+            border: none;
+            padding-left: 4px;
+            background: #F8F8F8;
+            outline: none;
+        }
+        .BD .Left .Up{
+            /*display: block;*/
+            margin-top: 20px;
+            width: 292px;
+            height: 42px;
+            font-size: 15px;
+            color: #E0D7D5;
+            padding-left: 4px;
+            border: none;
+            background: #F8F8F8;
+            outline: none;
+        }
+        .BD .Left .wj{
+            margin-top: 10px;
+            width: 296px;
+            height: 46px;
+
+        }
+        .BD .Left .wj a{
+            float:right;
+          margin: 7px 0;
+            font-size: 15px;
+            color: #00a57f;
+            text-decoration: none;
+        }
+        .BD .Left .btn{
+            cursor: pointer;
+            display: block;
+            /*margin-top: 20px;*/
+            width: 292px;
+            height: 42px;
+            background: #00b38a;
+            font-size: 18px;
+            border: 2px solid #00b38a;
+            color: white;
+            outline: none;
+        }
+        .BD .Left h5{
+            font-size: 15px;
+            color: #9A9A9A;
+            margin-top: 20px;
+            width: 296px;
+            height: 46px;
+            padding-left: 55px;
+
+        }
+        .BD .Left h5 a{
+            /*text-decoration: none;*/
+            font-size: 15px;
+            color: #00a57f;
+            /*margin-left: 45px;*/
+        }
+        .BD .zj{
+width: 14px;
+            height: 253px;
+            float: left;
+        }
+        .BD .Right{
+          width: 150px;
+            /*height: 260px;*/
+            margin-left: 46px;
+            float: left;
+            position: relative;
+        }
+        .BD .Right p{
+            font-size: 14px;
+            width: 150px;
+            height: 20px;
+            color: #9A9A9A;
+        }
+        .BD .Right ul{
+            margin-top: 10px;
+            width: 150px;
+            height: 50px;
+        }
+        .BD .Right ul li{
+            float: left;
+            width: 44px;
+            height: 43px;
+            /*margin-right: 9px;*/
+            list-style: none;
+            position: relative;
+        }
+        .BD .Right ul .one{
+
+            width: 44px;
+            height:43px;
+            display: block;
+            background: url("image/icon-sina_9cae1d9.png")no-repeat center;
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            margin-right: 3px;
+        }
+        .BD .Right ul .two{
+
+            width: 44px;
+            height:43px;
+              display: block;
+              background: url("image/icon-tecent_5870bd4.png")no-repeat 0 0;
+              position: absolute;
+            bottom: -4px;
+              left: 5px;
+          }
+        .BD .Right ul .three{
+
+            width: 44px;
+            height:43px;
+            display: block;
+            background: url("image/icon-wechat_12ea62f.png")no-repeat 0 0;
+            position: absolute;
+            bottom: -4px;
+            left: 10px;
+        }
+        .BD .Right .bj{
+            margin-top: 30px;
+            width: 150px;
+            height: 143px;
+        }
+        .BD .Right .bj img{
+            width: 124px;
+            height: 124px;
+            margin: 4px;
+        }
+        .BD .Right .bj h5{
+            font-size: 13px;
+            margin-left: 9px;
+            color: #9A9A9A;
+        }
+        .db{
+            height: 19px;
+            margin-top: 60px;
+            margin-left: 600px;
+        }
+        .db p{
+            line-height: 19px;
+            font-size: 16px;
+            color: #D1D1D1;
+font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="logo">
+    <div class="backDrop">
+        <a href=""></a>
+    </div>
+    <div class="BD">
+        <div class="Left">
+            <input class="Top" type="text" placeholder="请输入已验证手机/邮箱"/>
+            <input class="Up" type="text" placeholder="请输入密码"/>
+            <div class="wj">
+                <a href="">忘记密码?</a>
+            </div>
+            <input class="btn" type="button" value="登录"/>
+           <h5>还没有拉勾账号?<a href="">立即注册</a></h5>
+
+        </div>
+        <div class="zj"><img src="image/divider-login_3362138.jpg" alt=""/></div>
+        <div class="Right">
+            <p>使用以下帐号直接登录:</p>
+            <ul>
+                <li><a href="" class="one"></a></li>
+                <li><a href="" class="two"></a></li>
+                <li><a href="" class="three"></a></li>
+            </ul>
+            <div class="bj">
+                <img src="image/qrcode_0ec6bff.jpg" alt=""/>
+                <h5>[扫码下载拉勾APP]</h5>
+            </div>
+        </div>
+    </div>
+    <div class="db">
+        <p>— 专注互联网职业机会 —</p>
+    </div>
+</div>
+</body>
+</html>
